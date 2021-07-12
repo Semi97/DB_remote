@@ -1,6 +1,6 @@
 mysql-ctl start;
 mysql-ctl cli;
-
+mysql-ctl restart 
 
 SHOW DATABASES;
 CREATE DATABASE boo;
@@ -16,4 +16,4 @@ GRANT ALL PRIVILEGES ON *.* TO 'peter'@'%';
 SELECT * FROM mysql.user;
 quit;
 
-mysql-ctl restart 
+
